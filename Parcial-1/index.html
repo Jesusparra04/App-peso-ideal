@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora de peso ideal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div id="calculadora" class="row">
+        <div class="col-md-10 py-5">
+          
+            <form id="calculadora" class="p-4 p-md-5 border rounded-3 bg-body-tertiary shadow p-3 mb-5 bg-body-tertiary rounded">
+              <h1>Calculadora de peso ideal <img src="Img/peso ideal.gif" width="50px" height="50px" alt=""></h1>
+              <hr>
+              <div class="form-floating mb-3">
+                <select class="form-select" aria-label="Default select example" id="sexo">
+                  <option  selected >--Elija una opcion--</option>
+                  <option value="Hombre">Hombre</option>
+                  <option value="Mujer">Mujer</option>
+                </select>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="edad"  placeholder="" >
+                <label for="floatingPassword">Ingrese su edad</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="peso"  placeholder="" >
+                <label for="floatingPassword">Ingrese su peso actual (KG)</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="altura"  placeholder="" >
+                <label for="floatingPassword">Ingrese su altura (CM)</label>
+              </div>
+              
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Calcular</button>
+              <hr class="my-4">
+              <small class="text-body-secondary" id="resultado"></small>
+            </form>
+          
+        </div>
+      </div>
+    </div>
+    
+   
+      <script src="Js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

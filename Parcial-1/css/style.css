@@ -1,0 +1,22 @@
+
+
+h1{
+
+    text-align: center;
+    padding: 10px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.row{
+    width: 900px;
+    height: 450px;
+
+}
